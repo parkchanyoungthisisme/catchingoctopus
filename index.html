@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
+            background-color: #f0f0f0; /* 바탕화면 색상 */
             margin: 0;
             padding: 0;
         }
@@ -36,14 +36,41 @@
         }
         h1 {
             text-align: center;
-            color: #333;
+            color: #4CAF50; /* 초록색으로 변경 */
         }
         p {
             font-size: 1.1em;
             color: #555;
         }
+        .experience {
+            background-color: #e2f7e1;
+            border: 1px solid #4CAF50;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 30px;
+        }
+        .experience a {
+            color: #4CAF50;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 1.2em;
+            display: block;
+            margin-bottom: 10px;
+        }
+        .experience a:hover {
+            text-decoration: underline;
+        }
+        /* 문어 이미지 스타일 */
+        #octopus-image {
+            float: right;
+            margin-left: 20px;
+            border-radius: 8px;
+            width: 300px; /* 이미지 크기 조정 */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 부드러운 그림자 효과 */
+        }
     </style>
 </head>
+
 <body>
 
 <header>
@@ -55,11 +82,24 @@
     <a href="#features">특징</a>
     <a href="#habitat">서식지</a>
     <a href="#defense">방어 기법</a>
+    <a href="#experience">문어 잡기 체험</a>
 </nav>
 
+
+
+
+
+
+
+
+
 <section id="about">
+    <audio controls>
+        <source src="octopustic.mp3" type="audio/mpeg">
+    </audio>
     <h2>문어란?</h2>
-    <p>문어는 두족류에 속하는 해양 동물로, 여덟 개의 팔을 가진 것이 특징입니다. 주로 깊은 바다에서 서식하며, 뛰어난 지능과 다양한 생리적 특성을 지니고 있습니다.</p>
+    <p>문어는 두족류에 속하는 해양 동물로, 여덟 개의 팔을 가진 것이 특징입니다. 주로 깊은 바다에서 서식하며, 뛰어난 지능과 다양한 생리적 특성을 지니고 있습니다. 학명은 Octopoda이며, 존재하는 모든 무척추 동물중 가장 똑똑합니다.</p>
+    <img id="octopus-image" src="OCTOPUS.jpg" alt="문어 이미지"/>
 </section>
 
 <section id="features">
@@ -77,6 +117,16 @@
     <p>문어는 위협을 받으면 잉크를 뿜어내어 포식자를 혼란스럽게 하고, 빠르게 도망칠 수 있습니다. 또한 매우 유연하여 좁은 틈을 통해 탈출할 수 있습니다.</p>
 </section>
 
+<section id="experience" class="experience">
+    <h2>문어 잡기 체험</h2>
+    <p>다양한 문어 잡기 체험을 즐기고, 직접 해양 생태계를 경험해보세요! 아래 링크에서 체험 프로그램을 확인하고 예약하세요.</p>
+    
+    <a href="https://experiences.myrealtrip.com/products/3883967" target="_blank">문어 잡기 체험 1</a>
+    <a href="http://xn--pb0bp8z84dn4vm5c.com/?mid=page_ztNk16" target="_blank">문어 잡기 체험 2</a>
+    <a href="https://www.saipangoodtour.co.kr/post/tinian-atv-%EC%A0%95%EA%B8%80%ED%88%AC%EC%96%B4-%EB%AC%B8%EC%96%B8%EC%9E%A1%EA%B8%B0" target="_blank">문어 잡기 체험 3</a>
+    <a href="https://ko.activityjapan.com/search/octopus-fishing/" target="_blank">문어 잡기 체험 4</a>
+    <a href="https://donghaeho.moolban.co.kr/reserve/lists" target="_blank">문어 잡기 체험 5</a>
+</section>
+
 </body>
 </html>
-
